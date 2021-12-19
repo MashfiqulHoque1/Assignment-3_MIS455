@@ -13,7 +13,7 @@ body{
 .custom-row{
     background-color: burlywood;
     height: 103px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,6 +25,10 @@ body{
     width: fit-content;
     margin: 13px;
     padding: 8px;
+}
+h2{
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 #grid-container{
@@ -42,7 +46,7 @@ body{
         justify-content: center;
     }
     .custom-row{
-        font-size: small;
+        font-size: smaller;
     }
 }
 
